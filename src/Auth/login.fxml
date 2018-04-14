@@ -54,7 +54,7 @@ Contributor(s):
   <children>
       <ImageView fitHeight="582.0" fitWidth="776.0" layoutX="2.0" layoutY="-1.0">
          <image>
-            <Image url="@../../../GestionEtablissement/classes/gestionetablissement/assets/image/AR168.jpg" />
+            <Image url="@AR168.jpg" />
          </image>
       </ImageView>
       <AnchorPane layoutX="189.0" layoutY="93.0" prefHeight="404.0" prefWidth="424.0" AnchorPane.leftAnchor="189.0">
@@ -65,13 +65,13 @@ Contributor(s):
                 <children>
                   <AnchorPane id="AnchorPane" prefHeight="180.0" prefWidth="430.0">
                     <children>
-                      <Label id="label1" layoutX="14.0" layoutY="67.0" text="Username">
+                      <Label id="label1" layoutX="14.0" layoutY="67.0" style="-fx-background-color: black;" text="Username">
                                  <font>
                                     <Font size="11.0" />
                                  </font></Label>
-                      <TextField id="textField1" fx:id="userId" layoutY="86.0" prefWidth="415.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" />
-                      <Label id="label1" layoutX="14.0" layoutY="139.0" text="Password" />
-                      <PasswordField id="passwordField1" fx:id="password" layoutY="157.0" prefWidth="415.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" />
+                      <TextField id="textField1" fx:id="userId" layoutY="86.0" prefHeight="25.0" prefWidth="254.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="101.0" />
+                      <Label id="label1" layoutX="14.0" layoutY="139.0" style="-fx-background-color: black;" text="Password" />
+                      <PasswordField id="passwordField1" fx:id="password" layoutY="157.0" prefHeight="25.0" prefWidth="254.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="101.0" />
                     </children>
                   </AnchorPane>
                 </children>
@@ -83,8 +83,7 @@ Contributor(s):
               <Label id="label2" fx:id="errorMessage" />
             </children>
           </HBox>
-          <Button id="button1" fx:id="login" defaultButton="true" layoutX="79.0" onAction="#processLogin" prefHeight="51.0" prefWidth="227.0" text="Login" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="49.0" AnchorPane.rightAnchor="248.0" />
-            <AnchorPane layoutX="120.0" prefHeight="413.0" prefWidth="434.0" stylesheets="@adminview.css" AnchorPane.leftAnchor="90.0" />
+          <Button id="button1" fx:id="login" defaultButton="true" layoutX="92.0" onAction="#processLogin" prefHeight="41.0" prefWidth="169.0" stylesheets="@adminview.css" text="Login" AnchorPane.bottomAnchor="146.0" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="233.0" />
          </children>
          <padding>
             <Insets left="30.0" />
